@@ -710,12 +710,14 @@ export default {
 
       if (Array.isArray(data)) {
         this.tableData = data;
+        this.sortOrderData = this.sortOrder;
         this.fireEvent("loaded");
         this.loading = false
         return;
       }
 
       this.tableData = this.getObjectValue(data, this.dataPath, null);
+      this.sortOrderData = this.sortOrder;
       this.tablePagination = this.getObjectValue(
         data,
         this.paginationPath,
