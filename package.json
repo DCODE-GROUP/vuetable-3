@@ -1,6 +1,6 @@
 {
   "name": "@dcodegroup-au/vuetable-3",
-  "version": "6.1.11",
+  "version": "6.1.13",
   "private": false,
   "description": "Datatable component for Vue 3.x built with Vite/ESM",
   "author": "Dcode Group",
