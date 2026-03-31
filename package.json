@@ -151,5 +151,8 @@
   "directories": {
     "doc": "docs",
     "test": "tests"
+  },
+  "overrides": {
+    "axios": "1.13.6"
   }
 }
